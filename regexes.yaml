@@ -3223,7 +3223,7 @@ device_parsers:
   # Meizu
   # @ref: http://www.meizu.com
   #########
-  - regex: '; *(M030|M031|M035|M040|M065|m9) Build'
+  - regex: '; *(M030|M031|M035|M040|M065|m9|16s) Build'
     device_replacement: 'Meizu $1'
     brand_replacement: 'Meizu'
     model_replacement: '$1'
